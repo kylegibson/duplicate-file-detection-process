@@ -31,7 +31,7 @@ Group duplicates in a way that makes it easier to manually go line by
 line.
 
 ```
-bash step_4_group_dupes.py step-3.log | tee step-4.log
+python step_4_group_dupes.py step-3.log | tee step-4.log
 ```
 
 1. Open `step-4.log`
